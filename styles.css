@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* fondo degradado rosa suave */
+    background: linear-gradient(135deg, #ffe4ec, #ffd6e7, #ffc1dc);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #b03060;
+    font-size: 32px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #c2185b;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(255, 105, 180, 0.15);
+    margin-top: 25px;
+    border: 2px solid #ffd1dc;
+}
+
+button {
+    background: #ff4f9a;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #e91e63;
+    transform: scale(1.05);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border: 2px solid #ffb6c1;
+    outline: none;
+}
+
+input:focus {
+    border-color: #ff4f9a;
+    box-shadow: 0px 0px 8px rgba(255, 79, 154, 0.3);
+}
+
+#estado {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ad1457;
+}
+
+#resultadoPrediccion {
+    margin-top: 20px;
+    background: #fff0f5;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ffc0cb;
+}
+
+canvas {
+    margin-top: 20px;
+}
+
+#resumenLoss {
+    margin-top: 15px;
+    color: #880e4f;
+    font-weight: bold;
+}
